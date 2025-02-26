@@ -35,20 +35,20 @@
         await dekatutorial.fire({
 
           imageUrl: "https://dekatutorial.github.io/19gombal/stikerkuy/akuadapertanyaan.gif",
-          title: "Hallo sayangku!",
+          title: "Hallo Ananku sayang!",
           text: "Aku ada pertanyaan nih buat kamu",
 
         });
         await dekatutorial.fire({
 
           imageUrl: "https://dekatutorial.github.io/19gombal/stikerkuy/jawabyangjujur.gif",
-          title: "Jawab yang jujur",
+          title: "Jawab yang jujur yaa",
 
         });
         await dekatutorial.fire({
 
           imageUrl: "https://dekatutorial.github.io/19gombal/stikerkuy/awasajakaloboong.gif",
-          title: "Awas aja kalo boong",
+          title: "Awas aja kalo boong huft",
 
         });
         sayangGak();
@@ -60,8 +60,8 @@
 
             imageUrl: "https://dekatutorial.github.io/19gombal/stikerkuy/kamusayanggak.gif",
             title: "Kamu sayang gak sama aku?",
-            denyButtonText: "Gak!",
-            confirmButtonText: "Sayang",
+            denyButtonText: "Gak lah!",
+            confirmButtonText: "Sayang dong",
             
           })
           .then((e) => {
@@ -70,7 +70,7 @@
                 .fire({
 
                   imageUrl: "https://dekatutorial.github.io/19gombal/stikerkuy/akujugasayang.gif",
-                  title: "Aku juga sayang sama kamu",
+                  title: "Aku juga sayang banget sama kamu hihi",
 
                 })
                 .then(() => {
@@ -81,9 +81,9 @@
                 .fire({ showDenyButton: true,
 
                   imageUrl: "https://dekatutorial.github.io/19gombal/stikerkuy/yakinihgasayang.gif",
-                  title: "Yakin nih ga sayang sama Aku?",
+                  title: "Yakin nih ga sayang sama Etta? hiks",
                   denyButtonText: "Gak!",
-                  confirmButtonText: "Sayang",
+                  confirmButtonText: "Sayang kok",
 
                 })
                 .then((e) => {
@@ -92,7 +92,7 @@
                       .fire({
 
                         imageUrl: "https://dekatutorial.github.io/19gombal/stikerkuy/akujugasayang.gif",
-                        title: "Aku juga sayang sama kamu",
+                        title: "Aku juga sayaaaang sama kamu",
 
                       })
                       .then(seberapaSayang);
@@ -114,7 +114,7 @@
       async function seberapaSayang() {
         var { value: syg } = await dekatutorial.fire({
 
-          title: "Seberapa sayang emangnya?",
+          title: "Seberapa sayang sih emangnya?",
           inputLabel: "Antara 1 - 100",
 
           input: "range",
@@ -131,7 +131,7 @@
           .fire({
 
             imageUrl: "https://dekatutorial.github.io/19gombal/stikerkuy/makasihyaudahsayang.gif",
-            title: "Makasih ya udah sayang sama aku " + syg + "%",
+            title: "Makasih ya udah sayang sama aku hehe " + syg + "%",
 
           })
           .then(() => {
@@ -156,7 +156,7 @@
                 .fire({
 
                   imageUrl: "https://dekatutorial.github.io/19gombal/stikerkuy/akujugakangen.gif",
-                  title: "Aku juga kangen kamu",
+                  title: "Aku juga kangen banget banget sama kamu",
 
                 })
                 .then(adaPesanGak);
@@ -165,7 +165,7 @@
                 .fire({
 
                   imageUrl: "https://dekatutorial.github.io/19gombal/stikerkuy/jahatgakangen.gif",
-                  title: "Jahat banget ga kangen sama pacar sendiri",
+                  title: "Jahat banget ga kangen sama cewek sendiri",
 
                 })
                 .then(adaPesanGak);
@@ -193,7 +193,7 @@
             if (e.isConfirmed) {
               var { value: pesan } = await dekatutorial.fire({
 
-                title: "Apa pesannya?",
+                title: "Apa tuh sayang pesannya?",
                 input: "text",
 
               });
@@ -203,7 +203,7 @@
                 await dekatutorial.fire({
 
                   imageUrl: "https://dekatutorial.github.io/19gombal/stikerkuy/yaudahkalogaada.gif",
-                  title: "Ya udah kalo ga jadi",
+                  title: "Ya udah kalo ga jadi huft",
 
                 });
               }
@@ -211,7 +211,7 @@
               await dekatutorial.fire({
 
                 imageUrl: "https://dekatutorial.github.io/19gombal/stikerkuy/yaudahkalogaada.gif",
-                title: "Ya udah kalo ga ada",
+                title: "Ya udah kalo ga ada huft",
 
               });
             }
@@ -224,13 +224,13 @@
         await dekatutorial.fire({
 
           imageUrl: "https://dekatutorial.github.io/19gombal/stikerkuy/makasihudahjawab.gif",
-          title: "Makasih udah jawab jujur ya sayang",
+          title: "Makasih udah jawab jujur ya sayang hehe",
 
         });
         await dekatutorial.fire({
 
           imageUrl: "https://dekatutorial.github.io/19gombal/stikerkuy/akujugasayang.gif",
-          title: "Mmwuaaach",
+          title: "Mmwaaah, Etta sayang Anan",
 
         });
       }
